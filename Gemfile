@@ -42,6 +42,9 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
  gem "sassc-rails"
 
+ gem 'uglifier', '>= 1.3.0'
+
+
 # Use jquery as the Javascript library
 gem 'jquery-rails'
 
