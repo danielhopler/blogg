@@ -80,6 +80,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Alternative shell to IRB for Rails, Pry
+  gem 'pry-rails'
 end
 
 
