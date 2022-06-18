@@ -66,6 +66,9 @@ group :development, :test do
   # Use sqlite3 as the development and testing database for Active Record
   gem "sqlite3", "~> 1.4"
 
+  # gem used to generate seed data
+  gem 'faker'
+
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
