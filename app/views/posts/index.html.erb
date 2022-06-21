@@ -1,0 +1,9 @@
+
+<h1 class="flex-grow-1 ms-3">All <%= @posts.count%> Posts</h1>
+<% @posts.each do |post|%>
+    <div class = "d-flex ">
+      <h5 class = "flex-grow-1 ms-3">
+        <%= link_to post.title, post, class: 'link_to'%>
+      </h4>
+    </div>
+<%end%>
